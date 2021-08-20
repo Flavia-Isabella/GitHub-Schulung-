@@ -1,1 +1,12 @@
+name: Basic-Schulung 
 
+on: 
+ push: 
+ workflow_dispatch: 
+ 
+ jobs:
+  build: 
+    name: My-first-Actions
+    runs-on: unbuntu-latest
+    steps: 
+    -uses: checkout 

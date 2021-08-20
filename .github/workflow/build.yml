@@ -9,4 +9,7 @@ on:
     name: My-first-Actions
     runs-on: unbuntu-latest
     steps: 
-    -uses: checkout 
+    -uses: actions/chekut@v2
+    -uses: ./action-a
+     with: 
+       MY_NAME: Flavia-Isabella 
